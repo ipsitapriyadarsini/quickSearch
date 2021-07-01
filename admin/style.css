@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+:root {
+  --main-color: #027581;
+  --color-dark: #1d2231;
+  --text-grey: #8390a2;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  background: var(--main-color);
+  color: #fff;
+  padding: 1rem;
+  overflow: auto;
+}
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0rem 1rem;
+}
+/* .sidebar-menu {
+  padding: 1rem;
+} */
+.sidebar li {
+  margin-bottom: 1.2rem;
+}
+.sidebar a {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.sidebar a span:last-child {
+  padding-left: 0.6rem;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 0rem 1rem;
+  height: 60px;
+  padding-left: calc(216px);
+  background: #dcdcdc;
+  z-index: 100;
+}
+
+.box-container {
+  border: 3px solid #027581;
+  padding: 0px 1px;
+  border-radius: 50px;
+  display: flex;
+}
+.search {
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-family: "Nunito";
+  columns: #424242;
+  font-weight: 500;
+}
+.search:focus {
+  outline: none;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 25;
+  color: #027581;
+}

@@ -1,0 +1,13 @@
+.print {
+  float: right;
+  margin-top: -10px;
+}
+.btn-outline-info {
+  position: absolute;
+  left: 500px;
+  right: 500px;
+}
+
+/* a {
+  text-decoration: none;
+} */
